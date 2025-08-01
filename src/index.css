@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+  gap: 50px;
+  padding: 0px 50px;
+}
+.collection {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+ul {
+  padding: 15px;
+  list-style: none;
+  background-color: #eee;
+}
+
+ul li {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 0.5fr;
+  align-items: center;
+  padding: 20px;
+  transition: all 0.05s;
+}
+ul li:hover {
+  background-color: #fff4e6;
+}
+ul li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+ul li p {
+  padding: 0px 10px;
+  margin-top: 5px;
+}
+
+.name {
+  font-size: 21px;
+  font-weight: 500;
+  color: #495057;
+}
+
+.text {
+  font-size: 17px;
+  font-weight: 350;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 17px;
+  font-weight: 350;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.05s;
+}
+button:hover {
+  color: #fff4e6;
+}
+
+.form-add-friend {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  align-items: center;
+  gap: 25px;
+  padding: 15px;
+  margin-top: 15px;
+  width: 100%;
+  background-color: #fff4e6;
+}
+
+.form-add-friend label {
+  padding: 15px 10px;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.form-add-friend input {
+  padding: 15px 10px;
+  border: 0.5px solid #495057;
+  outline: none;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 13.5px;
+}
+
+.form-add-friend button {
+  position: relative;
+  right: -300px;
+}
+
+.close {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.from-split-bill {
+  display: grid;
+  grid-template-areas: "a a a a a" "b b c c c" "d d e e e" "f f g g g" "h h i i i";
+  gap: 25px;
+  height: 65vh;
+  background-color: #fff4e6;
+  padding: 25px;
+}
+
+.from-split-bill h5 {
+  grid-area: a;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+}
+.from-split-bill label {
+  padding: 10px 5px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #495057;
+}
+.from-split-bill input,
+.from-split-bill select {
+  outline: none;
+  border: 0.5px solid #ddd;
+  padding: 0px 15px;
+  font-size: 17px;
+}
+.from-split-bill .l1 {
+  grid-area: b;
+}
+
+.from-split-bill .i1 {
+  grid-area: c;
+}
+
+.from-split-bill .l2 {
+  grid-area: d;
+}
+
+.from-split-bill .i2 {
+  grid-area: e;
+}
+
+.from-split-bill .l3 {
+  grid-area: f;
+}
+
+.from-split-bill .i3 {
+  grid-area: g;
+}
+
+.from-split-bill .s1 {
+  grid-area: h;
+}
+
+.from-split-bill .b1 {
+  grid-area: i;
+}
+
+.selected {
+  background-color: #fff4e6;
+}
