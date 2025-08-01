@@ -38,7 +38,7 @@ App
 
 ```bash
 # Clone the repository
-git clone 
+git clone https://github.com/kareemtarekK/eat-n-split-application.git
 
 # Navigate into the project directory
 cd bill-splitting-app
@@ -48,5 +48,4 @@ npm install
 
 # Start the app
 npm start
-## 📂 Project Structure
 
