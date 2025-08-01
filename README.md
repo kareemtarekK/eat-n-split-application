@@ -41,7 +41,7 @@ App
 git clone https://github.com/kareemtarekK/eat-n-split-application.git
 
 # Navigate into the project directory
-cd bill-splitting-app
+cd name-project-folder
 
 # Install dependencies
 npm install
